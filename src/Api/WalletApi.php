@@ -4299,7 +4299,7 @@ class WalletApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = http_build_query$formParams);
+                $httpBody = http_build_query($formParams);
             }
         }
 
